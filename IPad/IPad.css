@@ -1,0 +1,19 @@
+.card {
+    background-color: #f5f5f7;
+}
+@media screen and (max-width:1024px) {
+    .container section .row .l3 .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card .card-content .container .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:768px) {
+    .ipad-card h5,
+    .ipad-card h5 {
+        font-size: 7px;
+    }
+}
