@@ -1,0 +1,37 @@
+.me:hover
+{
+    background-color:white;
+}
+
+.me
+{
+    background-color: rgb(21, 21, 146);
+    border-radius: 20px;
+    height:35px;
+    border: 1px solid  rgb(21, 21, 146) ;
+    width: 200px;
+}
+
+.ke 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.ke:hover
+{
+    color:rgb(21, 21, 146);
+}
+.Mi
+{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 100%;height: 40px;
+}
+
+.Mi:hover
+{
+background-color: white;
+color: black;
+}
