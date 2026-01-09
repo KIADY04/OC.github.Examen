@@ -1,0 +1,485 @@
+nav.Navbar {
+    background-color: #fafafc;
+    box-shadow: none;
+}
+nav img {
+    width: 30px;
+    margin-top: 10px;
+}
+nav a {
+    font-size: 14px;
+    font-weight: 400;
+}
+nav i {
+    font-size: 16px;
+    cursor: pointer;
+}
+h1, h4, h3 {
+    color: #1d1d1f;
+}
+.card-content .row {
+    margin-left: 10%;
+}
+.container h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+.card .row {
+    margin-left: 10%;
+}
+.card-content .row {
+    text-align: center;
+}
+.container .row img {
+    transition: transform 0.3s;
+}
+.container .row img:hover {
+    transform: scale(1.1);
+}
+.card-content {
+    padding: 60px 0;
+}
+.explore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 40px;
+}
+.explore h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.explore a {
+    color: #0066cc;
+    font-size: 16px;
+}
+.card {
+    background-color: transparent;
+    box-shadow: none;
+    text-align: center;
+}
+.card img {
+    margin-bottom: 20px;
+}
+.card h6 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.card p {
+    font-size: 14px;
+    color: #6e6e73;
+    margin: 10px 0;
+}
+.card b {
+    color: #1d1d1f;
+}
+.fa-circle {
+    font-size: 10px;
+    margin: 3px;
+    color: #d2d2d7;
+}
+.btn.blue {
+    background-color: #0071e3;
+    border-radius: 20px;
+    text-transform: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.card section a:last-child {
+    color: #0066cc;
+    font-size: 14px;
+}
+.banner {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+}
+.banner .left {
+    margin-left: 60px;
+    color: white;
+}
+.banner p {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.banner button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+.apple {
+    background-color: #ffffff;
+    padding: 80px 60px;
+}
+.apple h4 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 40px;
+}
+.apple .row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+.apple .col {
+    flex: 0 0 auto;
+}
+.apple .card {
+    width: 260px;
+    height: 320px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.apple .card:hover {
+    transform: translateY(-6px);
+}
+.apple .card img {
+    width: 235px;
+    height: auto;
+    border-radius: 14px;
+}
+.apple .row::-webkit-scrollbar {
+    height: 6px;
+}
+.apple .row::-webkit-scrollbar-thumb {
+    background-color: #d2d2d7;
+    border-radius: 10px;
+}
+.iphone h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.iphone img {
+    border-radius: 20px;
+}
+.incontournable {
+    background-color: #f5f5f7;
+    padding: 60px;
+}
+.tete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.tete a {
+    color: #0066cc;
+}
+.iphone-mac h4 {
+    font-size: 28px;
+    text-align: center;
+}
+.iphone-mac p {
+    font-size: 16px;
+    color: #6e6e73;
+    line-height: 1.6;
+}
+@media screen and (max-width: 992px) {
+    .explore {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner {
+        margin: 20px;
+        height: 350px;
+    }
+
+    .banner p {
+        font-size: 24px;
+    }
+}
+.apple-container {
+    width: 85%;            
+    max-width: 980px;      
+    margin: 0 auto;        
+    padding: 40px 0;
+}
+.center-align .credit-header {
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    color: #1d1d1f;
+}
+
+.cetelem-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.promo-line {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.credit-grid {
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.credit-item .label {
+    display: block;
+    color: #86868b;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+    min-height: 32px; 
+}
+.credit-item .value {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+.legal-notes {
+    font-size: 0.75rem;
+    color: #86868b;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.legal-notes p {
+    margin-bottom: 10px;
+}
+.footer-nav {
+    border-top: 1px solid #d2d2d7;
+    padding-top: 20px;
+}
+.footer-nav h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 20px 0 10px 0;
+    text-transform: none; 
+}
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-nav ul li {
+    list-style-type: none !important; 
+    margin-bottom: 6px;
+    padding: 0;
+}
+.footer-nav ul li a {
+    color: #424245;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+.footer-nav ul li a:hover {
+    color: #1d1d1f;
+    text-decoration: underline;
+}
+.footer-bottom {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-size: 0.75rem;
+    color: #86868b;
+}
+.footer-bottom hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #d2d2d7;
+}
+.footer-bottom a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom .right {
+    font-weight: 500;
+    color: #1d1d1f;
+}
+@media only screen and (max-width: 600px) {
+    .apple-container {
+        width: 90%;
+    }
+    .credit-item {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 992px) {
+    nav img {
+        width: 25px;
+        margin-top: 5px;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    nav i {
+        font-size: 14px;
+    }
+
+    .container h1 {
+        font-size: 36px;
+        margin: 30px 0;
+    }
+
+    .card-content .row,
+    .card .row {
+        margin-left: 5%;
+    }
+
+    .banner {
+        margin: 20px;
+        height: 350px;
+    }
+
+    .banner .left {
+        margin-left: 20px;
+    }
+
+    .banner p {
+        font-size: 24px;
+    }
+
+    .explore h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .apple h4 {
+        font-size: 32px;
+    }
+
+    .iphone h1 {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav img {
+        width: 20px;
+        margin-top: 3px;
+    }
+    nav a {
+        font-size: 10px;
+        display: block;
+        margin-top: 5px;
+        text-align: center;
+    }
+    nav i {
+        font-size: 14px;
+    }
+    .container h1 {
+        font-size: 28px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .card-content .row,
+    .card .row {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .card .col {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .explore {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 10px 20px;
+    }
+    .explore h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .explore a {
+        font-size: 14px;
+    }
+    .banner {
+        margin: 10px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .banner .left {
+        margin-left: 0;
+        padding: 10px;
+        text-align: center;
+        color: black;
+    }
+    .banner p {
+        font-size: 18px;
+    }
+    .banner button {
+        width: 100%;
+        font-size: 12px;
+    }
+    .apple {
+        padding: 40px 10px;
+    }
+    .apple .row {
+        gap: 10px;
+    }
+    .apple .card {
+        width: 180px;
+        height: 220px;
+    }
+    .iphone h1 {
+        font-size: 28px;
+    }
+    .iphone img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .incontournable {
+        padding: 30px 10px;
+    }
+    .tete {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .iphone-mac h4 {
+        font-size: 20px;
+    }
+    .iphone-mac p {
+        font-size: 14px;
+    }
+    .credit-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .credit-item {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .footer-nav .row {
+        flex-direction: column;
+    }
+    .footer-nav .col {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .footer-bottom .right {
+        display: block;
+        margin-top: 10px;
+    }
+}
